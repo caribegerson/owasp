@@ -20,9 +20,9 @@
   "horusecCliDisableDocker": true,
   "horusecCliEnableCommitAuthor": false,
   "horusecCliEnableGitHistoryAnalysis": false,
-  "horusecCliEnableInformationSeverity": false,
-  "horusecCliEnableOwaspDependencyCheck": false,
-  "horusecCliEnableShellcheck": false,
+  "horusecCliEnableInformationSeverity": true,
+  "horusecCliEnableOwaspDependencyCheck": true,
+  "horusecCliEnableShellcheck": true,
   "horusecCliFalsePositiveHashes": null,
   "horusecCliFilesOrPathsToIgnore": [
     "*tmp*",
@@ -35,13 +35,11 @@
   "horusecCliMonitorRetryInSeconds": 15,
   "horusecCliPrintOutputType": "",
   "horusecCliProjectPath": "/home/gel/OWASPWebGoatPHP",
-  "horusecCliRepositoryAuthorization": "00000000-0000-0000-0000-000000000000",
+  "horusecCliRepositoryAuthorization": "ccfd6bfc-d605-4032-9edb-7a3ac9207468",
   "horusecCliRepositoryName": "OWASPWebGoatPHP",
   "horusecCliReturnErrorIfFoundVulnerability": false,
   "horusecCliRiskAcceptHashes": null,
-  "horusecCliSeveritiesToIgnore": [
-    "INFO"
-  ],
+  "horusecCliSeveritiesToIgnore": null,
   "horusecCliShowVulnerabilitiesTypes": [
     "Vulnerability"
   ],
