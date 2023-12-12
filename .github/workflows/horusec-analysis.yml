@@ -17,6 +17,6 @@ jobs:
     - name: Running Horusec Security
       run: |
         curl -fsSL https://raw.githubusercontent.com/ZupIT/horusec/main/deployments/scripts/install.sh | bash -s latest
-        horusec start -p="./"  authorization="ccfd6bfc-d605-4032-9edb-7a3ac9207468" -u="http://127.0.0.1:8043 "  -e="true"
+        horusec start -p="./"  authorization="ccfd6bfc-d605-4032-9edb-7a3ac9207468" -u="http://127.0.0.1:8000"  -e="true"
    
 
