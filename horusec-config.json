@@ -35,7 +35,7 @@
   "horusecCliMonitorRetryInSeconds": 15,
   "horusecCliPrintOutputType": "",
   "horusecCliProjectPath": "/home/gel/OWASPWebGoatPHP",
-  "horusecCliRepositoryAuthorization": "ccfd6bfc-d605-4032-9edb-7a3ac9207468",
+  "horusecCliRepositoryAuthorization": "1b78130e-2c07-435f-87af-6d53de942b67",
   "horusecCliRepositoryName": "OWASPWebGoatPHP",
   "horusecCliReturnErrorIfFoundVulnerability": false,
   "horusecCliRiskAcceptHashes": null,
