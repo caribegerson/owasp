@@ -1,5 +1,5 @@
 {
-  "horusecCliCertInsecureSkipVerify": false,
+  "horusecCliCertInsecureSkipVerify": true,
   "horusecCliCertPath": "",
   "horusecCliContainerBindProjectPath": "",
   "horusecCliCustomImages": {
@@ -35,9 +35,9 @@
   "horusecCliMonitorRetryInSeconds": 15,
   "horusecCliPrintOutputType": "",
   "horusecCliProjectPath": "/home/gel/OWASPWebGoatPHP",
-  "horusecCliRepositoryAuthorization": "6e55d15d-c858-4fe9-a8be-01ca0bf51c73",
+  "horusecCliRepositoryAuthorization": "ccfd6bfc-d605-4032-9edb-7a3ac9207468",
   "horusecCliRepositoryName": "OWASPWebGoatPHP",
-  "horusecCliReturnErrorIfFoundVulnerability": false,
+  "horusecCliReturnErrorIfFoundVulnerability": true,
   "horusecCliRiskAcceptHashes": null,
   "horusecCliSeveritiesToIgnore": null,
   "horusecCliShowVulnerabilitiesTypes": [
