@@ -12,11 +12,11 @@ jobs:
       with: # Necessário quando habilitado o autores de commit
         fetch-depth: 0
     - name: Atualiza o timezone
-      run: timedatectl set-timezone America/Sao_Paulo
+      run: |
+         sudo timedatectl set-timezone America/Sao_Paulo
     - name: Running Horusec Security
       run: |
         curl -fsSL https://raw.githubusercontent.com/ZupIT/horusec/main/deployments/scripts/install.sh | bash -s latest
         horusec start -p="./" -e="true"
-    - name: Atualiza o timezone
-      run: timedatectl set-timezone America/Sao_Paulo
+   
 
