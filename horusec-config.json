@@ -24,10 +24,7 @@
   "horusecCliEnableOwaspDependencyCheck": true,
   "horusecCliEnableShellcheck": true,
   "horusecCliFalsePositiveHashes": null,
-  "horusecCliFilesOrPathsToIgnore": [
-    "*tmp*",
-    "**/.vscode/**"
-  ],
+  "horusecCliFilesOrPathsToIgnore": null,
   "horusecCliHeaders": {},
   "horusecCliHorusecApiUri": "http://0.0.0.0:8000",
   "horusecCliJsonOutputFilepath": "",
