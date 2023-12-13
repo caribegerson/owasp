@@ -5,7 +5,7 @@ on: [push]
 jobs:
   horusec-security:
     name: horusec-security
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
     - name: Check out code
       uses: actions/checkout@v3
@@ -17,5 +17,5 @@ jobs:
     - name: Running Horusec Security
       run: |
         curl -fsSL https://raw.githubusercontent.com/ZupIT/horusec/main/deployments/scripts/install.sh | bash -s latest
-        horusec start -p="./"   horusec-url="http://127.0.0.1:8000"  -e="true"
+        horusec start -p="./"   horusec-url="http://10.0.2.15:8000"  -e="true"
 
