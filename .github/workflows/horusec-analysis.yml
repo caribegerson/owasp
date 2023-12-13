@@ -16,6 +16,5 @@ jobs:
          sudo timedatectl set-timezone America/Sao_Paulo
     - name: Running Horusec Security
       run: |
-        curl -fsSL https://raw.githubusercontent.com/ZupIT/horusec/main/deployments/scripts/install.sh | bash -s latest
-        horusec start -p="./"   horusec-url="http://10.0.2.15:8000"  -e="true"
+         horusec start -p="./"   horusec-url="http://10.0.2.15:8000"  -e="true"
 
